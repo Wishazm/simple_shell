@@ -14,16 +14,16 @@
 extern char **environ;
 
 
-char *get_linefunc(void);
+char *getlinec(void);
 char **splitter(char *line);
 int _execute(char **cmd, char **argv, int indx);
 void freearrays(char **array);
 int _execute2(char **cmd, char **argv, int indx);
 char **splitter2(char *line);
-char *_getenv(char *var);
-char *_getpath(char *cmd);
+char *get_env(char *var);
+char *get_path(char *cmd);
 void printerro(char *name, char *cmd, int indx);
-int _builtin(char *cmd);
+int built_in(char *cmd);
 void handle_builtin(char **cmd, int status);
 void exite(char **cmd, int status);
 void printenv(char **cmd, int status);
