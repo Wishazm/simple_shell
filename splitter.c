@@ -1,4 +1,4 @@
-#include "main.h"
+#include "shell.h"
 /**
  * **splitter - splits the line according to the delemitrs
  * @line : string to split

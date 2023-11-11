@@ -1,4 +1,4 @@
-#include "main.h"
+#include "shell.h"
 /**
  * getlinec - reads the line
  *

@@ -1,4 +1,4 @@
-#include "main.h"
+#include "shell.h"
 /**
  * get_env - searches for the environment string pointed to by name
  * @var: string comtaining the reuisted variable

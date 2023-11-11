@@ -1,4 +1,4 @@
-#include "main.h"
+#include "shell.h"
 /**
  * _execute - executes the commands
  * @cmd: the splitted string
@@ -6,7 +6,7 @@
  * @indx: index
  * Return: return value
  */
-int _execute(char **cmd, char **argv, int indx)
+int _execute(chiar **cmd, char **argv, int indx)
 {
 	pid_t child;
 	char *CMD;

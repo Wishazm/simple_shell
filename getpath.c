@@ -1,4 +1,4 @@
-#include "main.h"
+#include "shell.h"
 /**
  * get_path - determinates the path of the command
  * @cmd: the command

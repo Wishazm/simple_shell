@@ -1,4 +1,4 @@
-#include "main.h"
+#include "shell.h"
 /**
  * freearrays - free an array
  * @array: array

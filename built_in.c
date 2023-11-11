@@ -1,4 +1,4 @@
-#include "main.h"
+#include "shell.h"
 /**
  * built_in - a function that compares the built in with the cmd
  * @cmd: the command
