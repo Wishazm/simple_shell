@@ -6,13 +6,13 @@
  * @indx: index
  * Return: return value
  */
-int _execute(chiar **cmd, char **argv, int indx)
+int _execute(char **cmd, char **argv, int indx)
 {
 	pid_t child;
 	char *CMD;
 	int status;
 
-	CMD = _getpath(cmd[0]);
+	CMD = get_path(cmd[0]);
 	if (!CMD)
 	{
 		printerro(argv[0], cmd[0], indx);
